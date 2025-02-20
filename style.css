@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+    gap: 20px;
+}
+.nab-bar {
+    display: inline;
+    text-decoration: none;
+}
