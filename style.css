@@ -12,3 +12,7 @@ ul {
     display: inline;
     text-decoration: none;
 }
+.portfolio {
+    display: flex;
+    justify-content: center;
+}
