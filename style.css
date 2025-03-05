@@ -1,6 +1,13 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    /* margin: 0px; */
+}
+
 .header {
     display: flex;
     justify-content: space-between;
+    background-color: orange;
 }
 ul {
     display: flex;
@@ -12,7 +19,30 @@ ul {
     display: inline;
     text-decoration: none;
 }
+.nab-bar li {
+    text-decoration: none;
+}
 .portfolio {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+.portfolio p {
+
+}
+#about-me {
+    background-color: antiquewhite;
+}
+#projects {
+    background-color: aqua;
+}
+#skills {
+    background-color: aquamarine;
+}
+#contact {
+    background-color:bisque;
+}
+footer {
+    background-color: blanchedalmond;
 }
