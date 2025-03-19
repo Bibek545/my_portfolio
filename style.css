@@ -7,8 +7,8 @@
 
 .header {
     display: flex;
-    justify-content: space-between;
-    background-color: orange;
+    justify-content: space-around;
+    background-color: white;
     position: sticky; 
     top: 0; 
     z-index: 1;  
@@ -19,6 +19,11 @@ ul {
     /* justify-content: space-between;
     align-items: center; */
     gap: 20px;
+    list-style: none;
+}
+.nab-bar a {
+    text-decoration: none;
+    color: black;
 }
 .nab-bar {
     display: inline;
@@ -67,6 +72,8 @@ ul {
     width: 300px;
     height: 50px;
     padding: 10px;
+    margin: 10px;
+
   }
   /* .portfolio .button:hover {
     background-color: black;
@@ -111,18 +118,20 @@ ul {
     background-color: red;
 }
 #projects {
-    background-color: aqua;
+    background-color: antiquewhite;
     padding: 20px;
 }
+
 #skills {
-    background-color: aquamarine;
+    /* background-color: aliceblue; */
     padding: 20px;
 }
+
 #contact {
-    background-color:bisque;
+    /* background-color:aliceblue; */
     padding: 20px;
 }
 footer {
-    background-color: blanchedalmond;
+    background-color: aliceblue;
     padding: 20px;
 }
