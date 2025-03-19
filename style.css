@@ -2,13 +2,18 @@
     box-sizing: border-box;
     padding: 0px;
     /* margin: 0px; */
+    z-index: 0;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     background-color: orange;
+    position: sticky; 
+    top: 0; 
+    z-index: 1;  
 }
+   
 ul {
     display: flex;
     /* justify-content: space-between;
@@ -26,23 +31,98 @@ ul {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
     background-color: aliceblue;
-}
-.portfolio p {
+    height: 550px;
 
 }
+.portfolio h2 {
+        display: inline-block; /* Makes the container fit the content */
+        padding: 10px 20px; /* Adds padding inside the container */
+        background-color: #007bff; /* Button background color */
+        color: white; /* Text color */
+        border-radius: 5px; /* Rounded corners */
+        cursor: pointer; /* Changes cursor to a pointer on hover */
+        text-align: center; /* Centers the text */
+        border: none; /* Removes border */
+        transition: background-color 0.3s ease; /* Smooth hover effect */
+        width: 300px;
+}
+/* .portfolio h2:hover {
+    background-color: #0056b3;
+  }
+   */
+  /* Style the h1 inside the container */
+  .portfolio h2 {
+    margin: 0; /* Removes default margin */
+    font-size: 20px; /* Adjust font size */
+  }
+  .portfolio p {
+    line-height: 20px;
+  }
+
+  .portfolio .button {
+    /* background-color: red; */
+    color: black;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+  }
+  /* .portfolio .button:hover {
+    background-color: black;
+    color: white;
+  } */
 #about-me {
     background-color: antiquewhite;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+#about-me .img {
+    padding: 15px;
+}
+#about-me .mysection {
+    padding: 50px;
+  
+}
+.cards {
+    height: 200px;
+    width: 700px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.cards .card1 {
+    height:100px;
+    width: 100px;
+    background-color: red;
+
+}
+.cards .card2 {
+    height:100px;
+    width: 100px;
+    background-color: red;
+}
+.cards .card3 {
+    height:100px;
+    width: 100px;
+    background-color: red;
 }
 #projects {
     background-color: aqua;
+    padding: 20px;
 }
 #skills {
     background-color: aquamarine;
+    padding: 20px;
 }
 #contact {
     background-color:bisque;
+    padding: 20px;
 }
 footer {
     background-color: blanchedalmond;
+    padding: 20px;
 }
