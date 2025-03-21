@@ -11,7 +11,7 @@ html {
 body {
     margin: 0;
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
     /* display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,9 +41,10 @@ ul {
 .nab-bar {
     display: inline;
     text-decoration: none;
-    position: sticky;
+    /* position: sticky;
     top: 0;
-    overflow: hidden;
+    z-index: 1000; */
+    /* overflow: hidden; */
 }
 .nab-bar li {
     text-decoration: none;
@@ -126,7 +127,7 @@ ul {
 }
 .container {
     height: 50vh;
-    width: 40vw;
+    width: 100vw;
     padding-top: 100px;
 }
 .cards {
