@@ -5,6 +5,7 @@
   <title>My portfolio</title>
   <link href="style.css" rel="stylesheet" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/805b9df117.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -193,35 +194,60 @@
 <!-- Here is my contact -->
 
   <section id="contact">
-
-    <div>
-      <h2>Contact me</h2>
+    <div class="contact-message">
+      <p>Get in Touch with me </p>
     </div>
-    <form>
-      <label for="fname">First name:</label><br>
-      <input type="text" id="fname" name="fname"><br>
-      <label for="lname">Last name:</label><br>
-      <input type="text" id="lname" name="lname"><br />
-      <label for="email">Email:</label><br>
-      <input type="text" id="email" name="email"><br>
-      <label for="phone">Phone number:</label><br>
-      <input type="number" id="phone" name="phone"><br />
-      <label for="message"> Message: </label><br>
-      <input type="text" id="message" name="message" required><br>
-    </form>
-
-    <button> Submit</button>
-
+    <div class="contact"> 
+      <div class="contact-container-me">
+        <p><i class="fa-solid fa-location-dot fa-fw"></i> Lidcombe, 214, Sydney, Australia</p>
+        <p><i class="fa-solid fa-mobile fa-fw"></i> +61 123456789 </p>
+        <p><i class="fa-solid fa-envelope fa-fw"></i> Fullstackbibek7@gmail.com</p>
+      </div>
+      <div class="contact-container">
+        <div>
+          <h2>Send me a message</h2>
+        </div>
+        <form>
+          <label for="name"></label><br>
+          <input type="text" id="name" name="name" placeholder="Name" required><br>
+  
+          <label for="email"></label><br>
+          <input type="text" id="email" name="email" placeholder="E-mail" required><br>
+          <label for="phone"></label><br>
+          <input type="text" id="phone" name="phone" placeholder="Mobile No" required><br />
+          <label for="message"></label><br>
+          <input type="text" id="message" name="message" placeholder="Message" required><br>
+        </form>
+  
+        <button class="contact-button"> Submit</button>
+      </div>
+    </div>
   </section>
 
   <!-- And this is my footer section -->
+   <section id="socials">
+     <div class="fonts">
+      <i class="fa-brands fa-linkedin"></i>
+      <i class="fa-brands fa-github"></i>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-whatsapp"></i>
+      <i class="fa-brands fa-instagram"></i>
+
+     </div>
+   </section>
 
   <footer>
+    <div class>
+    <div class="">
+      <p>Links</p>
+      <hr>
+
+    </div>
     <div class="">
       <h4> copyright@bibekhamal2025</h4>
       <p>Bibek Hamal</p>
     </div>
-    </div>
+  </div>
   </footer>
 
 
